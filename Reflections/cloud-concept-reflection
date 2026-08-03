@@ -1,1 +1,31 @@
+# Reflection Paper: Everyday Cloud Concepts & Version Control
 
+## 1. Cloud Services I Use Regularly
+In my daily academic and personal routine, three cloud applications I rely on heavily are **Messenger**, **GCash**, and **Google Meet**.
+
+## 2. Service and Deployment Model Classification
+
+### Messenger
+* **Service Model:** Software as a Service (SaaS)
+* **Deployment Model:** Public Cloud
+* **Explanation:** Messenger provides a complete, ready-to-use communication platform accessible via web browsers or mobile apps. Users do not need to manage servers or databases; the platform is hosted entirely on Meta's public infrastructure.
+
+### GCash
+* **Service Model:** Software as a Service (SaaS)
+* **Deployment Model:** Public / Hybrid Cloud
+* **Explanation:** GCash delivers a fully functional mobile financial service over the internet. Users interact strictly with the front-end software to perform transactions, while the underlying payment gateways and secure banking infrastructure are managed entirely in the background.
+
+### Google Meet
+* **Service Model:** Software as a Service (SaaS)
+* **Deployment Model:** Public Cloud
+* **Explanation:** Google Meet allows users to initiate real-time video calls without installing or configuring local server software. It runs entirely on Google's globally distributed public cloud infrastructure, handling scaling and video encoding automatically.
+
+## 3. The Critical Role of Version Control in Cloud Projects
+Version control systems like Git, paired with platform hosts like GitHub, are vital when managing cloud infrastructure and modern applications. Today's cloud deployments often rely on "Infrastructure as Code" (IaC), where server configurations, networking rules, and application setups are written as code files.
+
+Without version control, team members risk overwriting each other's configurations, making tracking down system errors difficult. GitHub acts as a centralized source of truth, enabling developers to:
+* **Collaborate safely:** Developers can work on feature branches without disrupting the live production environment.
+* **Track change history:** Every configuration edit is logged with specific commit authors and detailed messages.
+* **Prevent and reverse errors:** If an erroneous update breaks a cloud deployment, teams can instantly roll back to a known stable version.
+
+In summary, version control ensures that managing cloud environments remains structured, audit-friendly, and resilient against downtime.
